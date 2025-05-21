@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Choki Lhamo | Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="keywords" content="AI Developer, Data Scientist, Web Developer, Bhutan, Portfolio">
+    <meta name="description" content="Portfolio of Yeshey Wangmo, AI and Data Science student at GCIT">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+        <link href="css/navbar.css" rel="stylesheet">
+
+    
+   
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+<nav id="navbar" class="">
+  <div class="nav-wrapper">
+    <!-- Navbar Logo -->
+    <div class="logo">
+      <a href="#home"><img src="img/logo.png" alt="Company Logo" class="logo-img"></a>
+    </div>
+
+    <!-- Navbar Links -->
+    <ul id="menu">
+      <li><a href="#home">Home</a></li><!--
+   --><li><a href="#about-me">About Me</a></li>
+<li class="dropdown">
+        <a href="#portfolio" class="dropbtn">Portfolio <i class="arrow"></i></a>
+        <div class="dropdown-content">
+          <a href="gadget_store.html">Gadget Store</a>
+          <a href="dorji_trozey.html">Dorji Trozey</a>
+          <a href="gcit_election.html">GCIT Election</a>
+        </div>
+      </li>   
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+   
+
+   <!-- Modern Glass Morphism Header -->
+<div class="header-glass-container" id="home">
+    <div class="header-content-wrapper">
+      <!-- Left Column - Visual Element -->
+      <div class="header-visual-column">
+        <div class="visual-container">
+          <div class="tech-circle python"></div>
+          <div class="tech-circle ai"></div>
+          <div class="tech-circle data"></div>
+          <div class="profile-glass-card">
+            <img src="img/img1.jpg" alt="Choki Lhamo" class="profile-image">
+            <div class="glass-reflection"></div>
+          </div>
+          <div class="floating-shapes">
+            <div class="shape triangle"></div>
+            <div class="shape circle"></div>
+            <div class="shape square"></div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Right Column - Content -->
+      <div class="header-text-column">
+        <div class="badge-container">
+          <span class="role-badge">Blockchain Developer</span>
+          <span class="role-badge">Web Developer</span>
+        </div>
+        
+        <h1 class="name-title">
+          <span class="name-part">Choki</span>
+          <span class="name-part">Lhamo</span>
+        </h1>
+        
+        <div class="dynamic-text-container">
+          <div class="text-slider">
+            <div class="text-slide active">Building secure and decentralized applications with seamless web experiences</div>
+           
+          </div>
+        </div>
+        
+        <p class="professional-summary">
+Specializing in blockchain and web development to create secure, scalable, and user-focused solutions that drive innovation and deliver real-world impact.        
+        <div class="action-buttons">
+          <a href="#contact" class="primary-action">
+            <span>Start a Project</span>
+            <svg viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path></svg>
+          </a>
+          <a href="#portfolio" class="secondary-action">
+            <span>Explore Work</span>
+            <svg viewBox="0 0 24 24"><path d="M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C17,19.5 21.27,16.39 23,12C21.27,7.61 17,4.5 12,4.5Z"></path></svg>
+          </a>
+        </div>
+        
+       
+      </div>
+    </div>
+    
+    
+  </div>
+  
+  <style>
+  /* Base Styles */
+  .header-glass-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background: radial-gradient(circle at 30% 50%, rgba(15, 23, 42, 0.9) 0%, rgba(2, 6, 23, 1) 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .header-content-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Visual Column Styles */
+  .header-visual-column {
+    position: relative;
+    height: 100%;
+  }
+  
+  .visual-container {
+    position: relative;
+    height: 500px;
+  }
+  
+  .profile-glass-card {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    z-index: 3;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .glass-reflection {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.1),
+      transparent
+    );
+    transition: 0.5s;
+  }
+  
+  .profile-glass-card:hover .glass-reflection {
+    left: 100%;
+  }
+  
+  .tech-circle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .tech-circle.python {
+    width: 120px;
+    height: 120px;
+    top: 10%;
+    left: 15%;
+    background: rgba(74, 129, 183, 0.1);
+    border-color: rgba(74, 129, 183, 0.3);
+    animation-delay: 0s;
+  }
+  
+  .tech-circle.ai {
+    width: 80px;
+    height: 80px;
+    bottom: 15%;
+    right: 20%;
+    background: rgba(234, 84, 85, 0.1);
+    border-color: rgba(234, 84, 85, 0.3);
+    animation-delay: 1s;
+  }
+  
+  .tech-circle.data {
+    width: 150px;
+    height: 150px;
+    top: 60%;
+    left: 10%;
+    background: rgba(101, 200, 149, 0.1);
+    border-color: rgba(101, 200, 149, 0.3);
+    animation-delay: 2s;
+  }
+  
+  .floating-shapes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .shape {
+    position: absolute;
+    opacity: 0.1;
+  }
+  
+  .shape.triangle {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid #5B7FFF;
+    top: 20%;
+    right: 10%;
+    animation: float 8s ease-in-out infinite;
+    animation-delay: 0.5s;
+  }
+  
+  .shape.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FF7EB3;
+    bottom: 25%;
+    left: 15%;
+    animation: float 7s ease-in-out infinite;
+    animation-delay: 1.5s;
+  }
+  
+  .shape.square {
+    width: 45px;
+    height: 45px;
+    background: #58FFD1;
+    top: 70%;
+    right: 20%;
+    animation: float 9s ease-in-out infinite;
+    animation-delay: 1s;
+  }
+  
+  /* Text Column Styles */
+  .header-text-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .badge-container {
+    display: flex;
+    gap: 0.75rem;
+  }
+  
+  .role-badge {
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #E2E8F0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .name-title {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #F8FAFC;
+    margin: 0;
+  }
+  
+  .name-part {
+    display: inline-block;
+    background: linear-gradient(90deg, #F8FAFC 0%, #CBD5E1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .dynamic-text-container {
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .text-slider {
+    position: relative;
+    height: 100%;
+  }
+  
+  .text-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #94A3B8;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+  }
+  
+  .text-slide.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .professional-summary {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ffffff;
+    max-width: 90%;
+    margin: 1rem 0;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .primary-action, .secondary-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.9rem 1.75rem;
+    border-radius: 50px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .primary-action {
+    background: linear-gradient(135deg, #f69ae7 0%, #b456bb 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(241, 44, 225, 0.3);
+  }
+  
+  .primary-action:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(174, 152, 152, 0.4);
+    color: black;
+  }
+  
+  .primary-action svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+  
+  .secondary-action {
+    background: transparent;
+    color: #E2E8F0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .secondary-action:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: black;
+  }
+  
+  .secondary-action svg {
+    width: 20px;
+    height: 20px;
+    fill: #E2E8F0;
+  }
+  
+  .achievement-metrics {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .metric {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .metric-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #F8FAFC;
+    background: linear-gradient(135deg, #5B7FFF 0%, #33CCFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .metric-label {
+    font-size: 0.9rem;
+    color: #94A3B8;
+  }
+  
+ 
+  
+  .mouse {
+    width: 30px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+  }
+  
+  .wheel {
+    width: 6px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    animation: scroll-wheel 2s ease infinite;
+  }
+  
+  .arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .arrow {
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    transform: rotate(45deg);
+    margin: -3px;
+    animation: scroll-arrow 2s ease infinite;
+  }
+  
+  .arrow:nth-child(1) { animation-delay: 0.1s; opacity: 0.3; }
+  .arrow:nth-child(2) { animation-delay: 0.2s; opacity: 0.6; }
+  .arrow:nth-child(3) { animation-delay: 0.3s; opacity: 0.9; }
+  
+  /* Animations */
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  @keyframes scroll-wheel {
+    0% { transform: translateY(0); opacity: 1; }
+    50% { transform: translateY(10px); opacity: 0.5; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  @keyframes scroll-arrow {
+    0% { opacity: 0; transform: rotate(45deg) translateY(0); }
+    50% { opacity: 1; }
+    100% { opacity: 0; transform: rotate(45deg) translateY(10px); }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .header-content-wrapper {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+    
+    .visual-container {
+      height: 400px;
+    }
+    
+    .profile-glass-card {
+      width: 280px;
+      height: 280px;
+    }
+    
+    .header-text-column {
+      align-items: center;
+      text-align: center;
+    }
+    
+    .badge-container {
+      justify-content: center;
+    }
+    
+    .professional-summary {
+      max-width: 100%;
+      text-align: center;
+    }
+    
+    .action-buttons {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .name-title {
+      font-size: 3rem;
+    }
+    
+    .dynamic-text-container {
+      height: 50px;
+    }
+    
+    .text-slide {
+      font-size: 1.25rem;
+    }
+    
+    .achievement-metrics {
+      gap: 1.5rem;
+    }
+    
+    .metric-value {
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-glass-container {
+      padding: 1.5rem;
+    }
+    
+    .name-title {
+      font-size: 2.5rem;
+    }
+    
+    .action-buttons {
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .primary-action, .secondary-action {
+      width: 100%;
+    }
+    
+    .achievement-metrics {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .metric {
+      flex: 0 0 calc(50% - 1rem);
+      text-align: center;
+    }
+  }
+  </style>
+  
+  
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 bg-white" id="about-me" style="background: linear-gradient(to bottom, #ffffff 0%, #f8f9fa 100%);">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center mb-5">
+                    <span class="badge bg-primary-soft text-primary mb-3" style="font-size: larger;">ABOUT ME</span>
+                    <h2 class="display-5 fw-bold mb-3">Transforming Blockchain  into Scalable Digital Solutions</h2>
+                    <p class="lead text-muted">Innovating with blockchain to build secure, impactful solutions.</p>
+
+                </div>
+            </div>
+    
+            <div class="row align-items-center g-5">
+              <!-- Image and Title Column -->
+              <div class="col-lg-5 d-flex flex-column align-items-center">
+                
+                  <div class="about-image-wrapper position-relative">
+                      <div class="hover-img-wrapper rounded-4 overflow-hidden shadow">
+                          <img src="img/img 3.jpg" class="img-fluid hover-zoom" alt="Yeshey Wangmo" style="transition: all 0.5s ease; transform-origin: center;">
+                          <div class="img-overlay"></div>
+                      </div>
+                      <div class="position-absolute bottom-0 start-0 translate-middle">
+                          <div class="bg-white p-3 rounded-3 shadow-sm d-flex align-items-center">
+                              <!-- You can add a badge or icon here if needed -->
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+              <!-- Text Content Column -->
+              <div class="col-lg-7">
+                  <div class="ps-lg-4">
+                      <div class="mb-4">
+                        <h3 class="fw-bold mb-4">Blockchain Specialist</h3>
+                          <p class="mb-3">I'm Choki Lhamo, currently advancing my expertise in Blockchain Technology at Gyalpozhing College of Information Technology. My academic journey centers on decentralized systems, smart contracts, and secure full-stack application development.</p>
+                          <p>I thrive at the intersection of technology and trust—building solutions that harness blockchain for transparency, immutability, and efficiency.</p>
+                      </div><br>
+                      <div class="action-buttons">
+          <a href="About_me.html" class="primary-action">
+            <span>Explore More About Me</span>
+            <svg viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path></svg>
+          </a>
+          
+        </div>
+        
+                      
+                     
+                  </div>
+              </div>
+          </div>
+          
+        </div>
+    </div>
+    
+    <style>
+        /* Hover effect for the image */
+        .hover-img-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .img-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 98, 204, 0.3);
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            border-radius: 0.5rem;
+        }
+        
+        .hover-img-wrapper:hover .img-overlay {
+            opacity: 1;
+        }
+        
+        .hover-img-wrapper:hover .hover-zoom {
+            transform: scale(1.05);
+        }
+        
+        /* Optional: Add a frame effect */
+        .about-image-wrapper {
+            padding: 10px;
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .about-image-wrapper:hover {
+            transform: translateY(-5px);
+        }
+        
+        /* Make the badge more prominent */
+        .badge.bg-primary-soft {
+            letter-spacing: 1px;
+            padding: 8px 15px;
+            font-weight: 500;
+        }
+    </style>
+    <!-- About End -->
+
+    
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container py-5">
+            <div class="position-relative d-flex align-items-center justify-content-center mb-5" style="height: 200px;">
+                <h1 class="display-1 text-uppercase text-white" style="
+                    font-size: 7rem;
+                    font-weight: 900;
+                    letter-spacing: 5px;
+                    text-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+                    opacity: 0.2;
+                    z-index: 1;
+                ">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary" style="
+                    font-size: 3.5rem;
+                    font-weight: 700;
+                    letter-spacing: 3px;
+                    z-index: 2;
+                    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+                    margin-top: -10px;
+                ">My Portfolio</h1>
+            </div>
+           
+            <div class="container-fluid bg-white py-5" style="font-size: small;">
+                <div class="container px-lg-5">  <!-- Added px-lg-5 for wider padding on large screens -->
+                    <div class="row g-4 justify-content-center">  <!-- Added justify-content-center -->
+                        <!-- Camping Store Project -->
+                        <div class="col-xl-4 col-lg-6 col-md-8 mb-4">  <!-- Adjusted column sizes -->
+                            <div class="card h-100 border-0 shadow-lg portfolio-card" style="border-radius: 15px;">  <!-- Increased shadow and rounded corners -->
+                                <div class="position-relative overflow-hidden" style="height: 250px;">  <!-- Fixed image height -->
+                                    <img class="card-img-top img-fluid h-100 w-100" src="img/img 4.jpg" alt="Camping Store Project" style="object-fit: cover;">  <!-- Ensured proper image fit -->
+                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                        <a href="img/img 4.jpg" data-lightbox="portfolio" class="text-white">
+                                            <i class="fa fa-plus" style="font-size: 60px;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body p-4">  <!-- Added padding -->
+                                    <h4 class="card-title mb-3 text-primary">Gadget Store</h4>  <!-- Added text color -->
+                                    <p class="card-text mb-3 text-muted">Gadget store app brings the latest tech to your fingertips. Browse smart devices, get inspired, and make your everyday life smarter and easier.</p>
+                                    <div class="project-details mb-3 bg-light p-3 rounded">  <!-- Added background and rounded corners -->
+                                        <p class="mb-1"><strong>Role:</strong> Lead UX Designer & Researcher</p>
+                                        <p class="mb-0"><strong>Goal:</strong> Making it easy for everyone to find and access the latest tech and gadgets</p>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm mt-2 stretched-link text-white" href="gadget_store.html">SEE MORE</a>  <!-- Changed to solid button -->
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- FreshHarvest Market Project 1 -->
+                        <div class="col-xl-4 col-lg-6 col-md-8 mb-4">
+                            <div class="card h-100 border-0 shadow-lg portfolio-card" style="border-radius: 15px;">
+                                <div class="position-relative overflow-hidden" style="height: 250px;">
+                                    <img class="card-img-top img-fluid h-100 w-100" src="img/img 5.png" alt="FreshHarvest Market Project" style="object-fit: cover;">
+                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                        <a href="img/img 5.png" data-lightbox="portfolio" class="text-white">
+                                            <i class="fa fa-plus" style="font-size: 60px;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body p-4">
+                                    <h4 class="card-title mb-3 text-primary">Dorji Trozey Restaurant</h4>
+                                    <p class="card-text mb-3 text-muted">Dorji Trozey Restaurant website brings authentic Bhutanese flavors to your table. Browse the menu, book your spot, and enjoy a warm, welcoming dining experience.</p>
+                                    <div class="project-details mb-3 bg-light p-3 rounded">
+                                        <p class="mb-1"><strong>Role:</strong> Lead UX Designer & Researcher </p>
+                                        <p class="mb-0"><strong>Goal:</strong> Make table booking easy and serve authentic Bhutanese cuisine with warmth.</p>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm mt-2 stretched-link text-white" href="dorji_trozey.html">SEE MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- FreshHarvest Market Project 2 -->
+                        <div class="col-xl-4 col-lg-6 col-md-8 mb-4">
+                            <div class="card h-100 border-0 shadow-lg portfolio-card" style="border-radius: 15px;">
+                                <div class="position-relative overflow-hidden" style="height: 250px;">
+                                    <img class="card-img-top img-fluid h-100 w-100" src="img/img 6.png" alt="FreshHarvest Market Project" style="object-fit: cover;">
+                                    <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                        <a href="img/img 6.png" data-lightbox="portfolio" class="text-white">
+                                            <i class="fa fa-plus" style="font-size: 60px;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body p-4">
+                                    <h4 class="card-title mb-3 text-primary">GCIT Election system</h4>
+                                    <p class="card-text mb-3 text-muted">The GCIT Election System is a secure digital platform that streamlines student elections, ensuring transparency and efficiency.</p>
+                                    <div class="project-details mb-3 bg-light p-3 rounded">
+                                        <p class="mb-1"><strong>Role:</strong> Lead UX Designer & Researcher </p>
+                                        <p class="mb-0"><strong>Goal:</strong> To ensure fair, secure, and efficient student elections at GCIT</p>
+                                    </div>
+                                    <a class="btn btn-primary btn-sm mt-2 stretched-link text-white" href="gcit_election.html">SEE MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <style>
+                .portfolio-card {
+                    transition: all 0.3s ease;
+                    overflow: hidden;
+                }
+                
+                .portfolio-card:hover {
+                    transform: translateY(-10px);
+                    box-shadow: 0 15px 30px rgba(0,0,0,0.15) !important;
+                }
+                
+           
+                
+                .portfolio-card:hover .portfolio-overlay {
+                    opacity: 1;
+                }
+                
+                .portfolio-overlay i {
+                    transition: all 0.3s ease;
+                    transform: scale(0.8);
+                }
+                
+                .portfolio-card:hover .portfolio-overlay i {
+                    transform: scale(1);
+                }
+                
+                .container {
+                    max-width: 1400px; /* Wider container */
+                }
+                
+                .card-img-top {
+                    transition: all 0.5s ease;
+                }
+                
+                .portfolio-card:hover .card-img-top {
+                    transform: scale(1.1);
+                }
+            </style>
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact" style="background-color: #fff5f7;">
+        <div class="container py-5">
+            <!-- Floral Header -->
+            <div class="position-relative d-flex flex-column align-items-center justify-content-center mb-5">
+               
+                <h1 class="display-4 text-uppercase text-pink" style="font-family: 'Playfair Display', serif; color: #d23669; letter-spacing: 3px;">Let's Connect</h1>
+                <div class="divider" style="height: 3px; width: 80px; background: linear-gradient(to right, transparent, #ff85a2, transparent); margin: 15px 0;"></div>
+                <p class="text-center text-muted" style="max-width: 600px; font-family: 'Montserrat', sans-serif;">
+                  Whether you have a project in mind or just want to say hello, I'd love to hear from you—feel free to reach out!
+            </div>
+            
+            <!-- Contact Cards -->
+            <div class="row g-4 justify-content-center">
+                <!-- Location -->
+              <div class="col-lg-4 col-md-6">
+    <div class="contact-card p-4 text-center h-100" style="background-color: white; border-radius: 15px; border: 1px solid #ffecef; box-shadow: 0 5px 15px rgba(255, 133, 162, 0.1);">
+        <div class="icon-wrapper mb-3" style="width: 70px; height: 70px; margin: 0 auto; background-color: #ffebf0; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-map-marker-alt fa-2x" style="color: #d23669;"></i>
+        </div>
+        <h4 style="color: #d23669; font-family: 'Playfair Display', serif; margin-bottom: 15px;">Location</h4>
+        <p style="color: #888; margin-bottom: 20px;">Thimphu, Bhutan</p>
+        <a href="https://www.google.com/maps/place/Thimphu,+Bhutan/@27.4727924,89.6392863,13z/data=!3m1!4b1!4m6!3m5!1s0x39e1941a778481a9:0x9a9e1c2a1c0c1a0!8m2!3d27.4727924!4d89.6392863!16zL20vMDJ0cG5r?entry=ttu" 
+           target="_blank" 
+           class="btn-pink" 
+           style="display: inline-block; padding: 8px 20px; background-color: #ffebf0; color: #d23669; border-radius: 20px; text-decoration: none; transition: all 0.3s;">
+           View Map
+        </a>
+    </div>
+</div>
+                
+                <!-- Phone -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-card p-4 text-center h-100" style="background-color: white; border-radius: 15px; border: 1px solid #ffecef; box-shadow: 0 5px 15px rgba(255, 133, 162, 0.1);">
+                        <div class="icon-wrapper mb-3" style="width: 70px; height: 70px; margin: 0 auto; background-color: #ffebf0; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-phone-alt fa-2x" style="color: #d23669;"></i>
+                        </div>
+                        <h4 style="color: #d23669; font-family: 'Playfair Display', serif; margin-bottom: 15px;">Phone</h4>
+                        <p style="color: #888; margin-bottom: 20px;">+975 17319469</p>
+                        <a href="tel:+97577369317" class="btn-pink" style="display: inline-block; padding: 8px 20px; background-color: #ffebf0; color: #d23669; border-radius: 20px; text-decoration: none; transition: all 0.3s;">Call Me</a>
+                    </div>
+                </div>
+                
+                <!-- Email -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-card p-4 text-center h-100" style="background-color: white; border-radius: 15px; border: 1px solid #ffecef; box-shadow: 0 5px 15px rgba(255, 133, 162, 0.1);">
+                        <div class="icon-wrapper mb-3" style="width: 70px; height: 70px; margin: 0 auto; background-color: #ffebf0; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-envelope fa-2x" style="color: #d23669;"></i>
+                        </div>
+                        <h4 style="color: #d23669; font-family: 'Playfair Display', serif; margin-bottom: 15px;">Email</h4>
+                        <p style="color: #888; margin-bottom: 20px;">lhamochoki1511g@gmail.com</p>
+                        <a href="mailto:developeryewang@gmail.com" class="btn-pink" style="display: inline-block; padding: 8px 20px; background-color: #ffebf0; color: #d23669; border-radius: 20px; text-decoration: none; transition: all 0.3s;">Email Me</a>
+                    </div>
+                </div>
+            </div>
+            
+          
+        </div>
+    </div>
+    
+    
+    
+    <style>
+        .contact-card {
+            transition: all 0.3s ease;
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(255, 133, 162, 0.2) !important;
+        }
+        
+        .btn-pink:hover {
+            background-color: #d23669 !important;
+            color: white !important;
+        }
+        
+        .form-control:focus {
+            border-color: #ff85a2 !important;
+            box-shadow: 0 0 0 0.25rem rgba(255, 133, 162, 0.25) !important;
+        }
+        
+        /* Floral decoration */
+        .floral-divider {
+            position: relative;
+            height: 30px;
+            margin: 30px 0;
+        }
+        
+        .floral-divider:before {
+            content: "✿ ✿ ✿";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #ff85a2;
+            font-size: 20px;
+            letter-spacing: 10px;
+        }
+    </style>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="full-width-footer footer-section">
+        <div class="container text-center py-5">
+            <!-- Social Icons -->
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-outline-light rounded-circle mx-2 btn-social-icon" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="btn btn-outline-light rounded-circle mx-2 btn-social-icon" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn btn-outline-light rounded-circle mx-2 btn-social-icon" href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a class="btn btn-outline-light rounded-circle mx-2 btn-social-icon" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="btn btn-outline-light rounded-circle mx-2 btn-social-icon" href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            
+            <!-- Footer Links -->
+            <div class="d-flex justify-content-center mb-4 flex-wrap">
+                <a class="text-white px-3 py-1 footer-link" href="#">Privacy</a>
+                <span class="text-white-50">•</span>
+                <a class="text-white px-3 py-1 footer-link" href="#">Terms</a>
+                <span class="text-white-50">•</span>
+                <a class="text-white px-3 py-1 footer-link" href="#">FAQs</a>
+                <span class="text-white-50">•</span>
+                <a class="text-white px-3 py-1 footer-link" href="#">Help</a>
+            </div>
+            
+            <!-- Copyright -->
+            <p class="m-0 text-white">
+                Made with <i class="fas fa-heart text-danger mx-1"></i> by 
+                <a class="text-white font-weight-bold" href="#" style="text-decoration: none;">Choki Lhamo</a>. 
+                © 2025 All Rights Reserved.
+            </p>
+        </div>
+    </div>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .full-width-footer {
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            background: linear-gradient(135deg, #5b5264 0%, #686165 100%);
+            padding: 3rem 0;
+        }
+        
+       
+        
+        .btn-social-icon {
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-social-icon:hover {
+            transform: translateY(-3px);
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        .footer-link {
+            transition: all 0.3s ease;
+            position: relative;
+            text-decoration: none;
+        }
+        
+        .footer-link:hover {
+            color: #fff !important;
+        }
+        
+        .footer-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 50%;
+            background-color: #fff;
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+        
+        .footer-link:hover::after {
+            width: 60%;
+        }
+    </style>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+    
+</body>
+
+</html>
