@@ -1,0 +1,282 @@
+/* Blue Theme Color Palette */
+:root {
+  --blue-primary: #2563EB;       /* Vibrant royal blue */
+  --blue-dark: #1E40AF;           /* Deep navy */
+  --blue-light: #E0F2FE;          /* Sky blue tint */
+  --blue-accent: #38BDF8;         /* Bright azure */
+  --blue-teal: #0D9488;           /* Sophisticated teal */
+  --blue-gray: #94A3B8;           /* Cool gray */
+  --blue-lavender: #A5B4FC;       /* Soft periwinkle */
+}
+
+
+
+/* Gradient text for headings */
+.text-gradient-primary {
+  background: linear-gradient(135deg, var(--blue-primary), var(--blue-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Light blue background for main sections */
+.project-overview-section,
+
+
+/* Section headers with dark blue */
+.section-header h2 {
+  color: var(--blue-dark) !important;
+}
+
+/* Blue gradient divider */
+.divider {
+  background: linear-gradient(90deg, var(--blue-primary), var(--blue-teal)) !important;
+  height: 3px;
+}
+
+/* Cards with blue accents */
+.detail-card {
+  border-left: 4px solid var(--blue-primary) !important;
+  transition: all 0.3s ease;
+}
+
+.detail-card h5 {
+  color: var(--blue-dark) !important;
+}
+
+.detail-card i {
+  color: var(--blue-primary) !important;
+}
+
+/* Buttons - Primary blue */
+.btn-primary {
+  background-color: var(--blue-primary);
+  border-color: var(--blue-primary);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--blue-dark);
+  border-color: var(--blue-dark);
+  transform: translateY(-2px);
+}
+
+/* Hover effects with blue glow */
+.detail-card:hover, 
+.pain-point-card:hover,
+.persona-card:hover {
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.15) !important;
+  transform: translateY(-5px);
+}
+
+/* Blue-themed animation */
+@keyframes wave {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Special section with animated gradient */
+.hero-section {
+  background: linear-gradient(270deg, var(--blue-light), var(--blue-lavender), white);
+  background-size: 200% 200%;
+  animation: wave 12s ease infinite;
+}
+
+.persona-section {
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+  }
+  
+  .section-header {
+    text-align: center;
+    color: #1a3a8f;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .section-header::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
+  }
+  
+  .persona-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 1rem auto;
+  }
+  
+  .persona-card.compact {
+    flex: 1;
+    min-width: 320px;
+    max-width: 400px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', sans-serif;
+    color: #444;
+    font-size: 0.95em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .persona-card.compact:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+  }
+  
+  .persona-header {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #d4e6ff 0%, #a8c8ff 100%);
+    border-bottom: 1px solid #3a6fc9;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .persona-avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-right: 1.2rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+  .persona-title h3 {
+    margin: 0;
+    color: #1a3a8f;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+  
+  .tagline {
+    margin: 0.3rem 0 0;
+    color: #4a6b8c;
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+  
+  .persona-details {
+    padding: 1.5rem;
+  }
+  
+  .detail-section {
+    margin-bottom: 1.2rem;
+  }
+  
+  .detail-section h4 {
+    margin: 0 0 0.7rem 0;
+    color: #1a6fc9;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  .clean-list, .styled-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  
+  .clean-list li {
+    padding: 0.2rem 0;
+  }
+  
+  .styled-list li {
+    padding: 0.4rem 0;
+    position: relative;
+    padding-left: 1.2rem;
+  }
+  
+  .styled-list li:before {
+    content: "•";
+    color: #1a6fc9;
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+  }
+  
+  .goals .styled-list li:before {
+    color: #2e8b57;
+  }
+  
+  .challenges .styled-list li:before {
+    color: #d23c3c;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 900px) {
+    .persona-container {
+      flex-wrap: wrap;
+    }
+    
+    .persona-card.compact {
+      min-width: 280px;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .persona-section {
+      padding: 0 1rem;
+    }
+    
+    .persona-card.compact {
+      width: 100%;
+    }
+  }
+  .image-container img,
+  .wireframe-container img,
+  .mockup-container img,
+  .part8 img {
+    transition: all 0.3s ease;
+  }
+
+  /* Storyboard images hover */
+  .image-container:hover img {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+
+  /* Wireframe image hover */
+  .wireframe-container:hover img {
+    transform: scale(1.03) translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  }
+
+  /* Mockup image hover */
+  .mockup-container:hover img {
+    transform: scale(1.04);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+  }
+
+  /* Prototype images hover */
+  .part8:hover img {
+    transform: scale(1.03);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    border-color: #1a3a8f;
+  }
+
+  /* Research section image hover (if any) */
+  .research-content:hover img {
+    transform: scale(1.02);
+    opacity: 0.9;
+  }
+
+  /* Smooth cursor indication */
+  [class*="-container"]:hover,
+  .image-container:hover,
+  .part8:hover {
+    cursor: pointer;
+}
